@@ -1,0 +1,41 @@
+/*
+font-family: 'Space Mono', monospace;
+font-family: 'Grenze', serif;
+*/
+
+body {
+  font-family: 'Space Mono', monospace, italics
+}
+
+h1 {
+  font-family: 'Grenze', serif;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  font-style: 'Space Mono'italic
+}
+
+.grid-demo {
+
+}
+
+.grid-demo section {
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+
+.grid-demo div {
+  border: 5px solid black;
+  padding: 20px;
+}
+
+.grid-demo .feature {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  font-weight: 700;
+  font-style: italic;
+
+}
