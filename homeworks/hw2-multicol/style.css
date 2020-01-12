@@ -1,0 +1,36 @@
+/*
+font-family: 'Space Mono', monospace;
+*/
+
+body {
+  display: block;
+  margin: 8px;
+  font-family: 'Space Mono', monospace;
+  color: gold;
+  background-color: black;
+}
+
+h1 {
+font-family: 'Space Mono', monospace;
+font-size: 20px;
+}
+
+p {
+font-family: 'Space Mono', monospace;
+font-size:12px;
+color: gold;
+}
+
+.videos-i-love {
+}
+
+.videos-i-love section {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.videos-i-love section div {
+  border: 0px dotted gold;
+  padding: 20px;
+}
