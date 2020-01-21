@@ -1,0 +1,25 @@
+.thumb-box {
+  width: 400px;
+  display: block;
+  padding-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation: thumb-rotate 2s infinite, linear;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+@keyframes thumb-rotate {
+  0% {
+    transform:rotate(0deg);
+  }
+  50% {
+
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

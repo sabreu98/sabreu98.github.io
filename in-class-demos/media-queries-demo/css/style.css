@@ -1,0 +1,61 @@
+/* makes page content fully flush */
+body {
+  margin: 0;
+}
+
+
+.polar-hero {
+    background-image: url('../images/polarbear.jpg');
+    height: 210px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 0;
+    color: #fff;
+}
+
+/* makes images same viewport width */
+img {
+  width: 100%;
+}
+
+.polar-article {
+    width: 80%;
+    /* margin: top right bottom left or do individual (like margin-top: ; margin-bottom:; etc.) */
+    margin: 50px auto;
+    grid-template-columns: 1fr;
+
+}
+
+.feature { font-size: 24px;}
+
+@media only screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 100px;
+  }
+  .polar-hero {
+      height: 400px;
+  }
+  .polar-article {
+      display:grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 80px;
+  }
+  .article-body{
+    grid-column: 2/3;
+    gird-row: 2/3;
+  }
+
+  .turtle.img {
+    grid-column: 1 / 2;
+    grid-row: 2/3;
+  }
+
+  .hide-mobile { display: inline; }
+}
