@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Absolute Positioning</title>
+  <style>
+
+    .parent {
+      position: relative;
+      border: 1px solid red;
+      margin: 100px;
+      min-height:400px;
+    }
+
+    .child1 {
+      position: absolute;
+      top:120px;
+      left:450px;
+
+      display: inline-block;
+      background-color:rgba(255,173,163,100);
+      width: 100px;
+      height: 100px;
+    }
+    .child2{
+      display: inline-block;
+      background-color:rgba(200,100,100,100);
+      width: 100px;
+      height: 100px;
+    }
+    .child3 {
+      display: inline-block;
+      background-color:rgba(155,73,63,100);
+      width: 100px;
+      height: 100px;
+
+    }
+
+  </style>
+
+
+</head>
+<body>
+  <div class="parent">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <h1> here is a box </h1>
+
+
+  </div>
+
+</body>
+</html>
