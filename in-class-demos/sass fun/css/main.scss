@@ -1,0 +1,34 @@
+/*
+main.css
+font-family: 'Trade Winds', ;
+font-family: 'Oswald', ;
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald|Trade+Winds&display=swap');
+@import 'partials/variables';
+
+$body-font:'Oswald',;
+$header-font:'Trade Winds', ;
+$primary-text:#094A70;
+$secondary-text:#666666;
+$highlight-text:#FF969A;
+$primary-background:#D1D0AB;
+
+body  {
+  font-family: $body-font;
+}
+h1, h2, h3, h4 {
+  color: $primary-text;
+  font-family: $header-font;
+}
+h1 {
+  font-size: 60px;
+}
+
+.content {
+  width:70%;
+  margin:auto;
+  padding: 20px;
+  p{
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,25 @@
+/*
+main.css
+font-family: 'Trade Winds', ;
+font-family: 'Oswald', ;
+*/
+@import url("https://fonts.googleapis.com/css?family=Oswald|Trade+Winds&display=swap");
+/*partials.scss*/
+body {
+  font-family: "Oswald"; }
+
+h1, h2, h3, h4 {
+  color: #094A70;
+  font-family: "Trade Winds"; }
+
+h1 {
+  font-size: 60px; }
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 20px; }
+  .content p {
+    font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */
